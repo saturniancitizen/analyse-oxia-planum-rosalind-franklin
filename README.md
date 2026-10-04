@@ -1,27 +1,33 @@
-# Oxia Planum: geological analysis and rover engineering
+# Oxia Planum : géologie martienne et exploration robotisée
 
-This project looks at Oxia Planum, a region on Mars selected as the landing site for the Rosalind Franklin rover. It brings together two interests: understanding the site's geology and considering how the terrain relates to the rover's exploration.
+Oxia Planum est une région de Mars choisie comme site d’atterrissage pour le rover Rosalind Franklin. J’ai consacré ce projet à l’étude de ce terrain et à la façon dont les données d’observation orbitale peuvent aider à le décrire dans le contexte d’une exploration robotisée.
 
-The work is presented in a final report, with a separate collection of figures and an exported analysis notebook. The report is the best place to start.
+## La question du projet
 
-## Start here
+Comment combiner des images et des données topographiques de résolutions différentes pour mieux comprendre le paysage d’Oxia Planum et son intérêt pour l’exploration par rover ?
 
-- [Final report (French PDF)](report/oxia_planum_rapport_finale.pdf) — the main written account of the project.
-- [Figures (PDF)](figures/Figures_Oxia_Planum.pdf) — figures gathered separately for easier viewing.
-- [Analysis notebook (HTML export)](notebooks/oxia%20planum%20full%20code%20NB.html) — a browser-readable export of the analysis notebook and its code.
+Pour y répondre, le projet met en regard une mosaïque en couleurs de l’instrument CaSSIS, des images orthorectifiées de la caméra CTX, un modèle numérique de terrain CTX et une grille géographique de carrés d’un kilomètre. Ces produits permettent d’observer le site à plusieurs échelles : les couleurs et textures de la surface, son relief et son organisation géographique.
 
-## Project files
+## Démarche
 
-| Folder | Contents |
+Le travail rassemble les données, leur analyse dans un carnet contenant le code, les figures produites et une synthèse dans le rapport final. Il relie ainsi la géologie martienne à des questions concrètes de cartographie et de préparation d’une exploration robotisée. Les données orbitales donnent un cadre pour étudier le terrain ; elles ne remplacent pas des observations faites directement à la surface.
+
+Ce projet m’a permis de travailler avec des données géospatiales réelles et de présenter une analyse scientifique sous plusieurs formes : rapport, figures et carnet de code. Les sources des jeux de données et le rôle de chaque produit sont décrits dans le dossier `donnees/`.
+
+## Pour découvrir le projet
+
+- [Rapport final](rapport/oxia_planum_rapport_finale.pdf) — le document principal et le meilleur point de départ.
+- [Figures](figures/Figures_Oxia_Planum.pdf) — les illustrations réunies dans un seul fichier.
+- [Carnet d’analyse (export HTML)](analyses/oxia%20planum%20full%20code%20NB.html) — le code et le déroulement de l’analyse, consultables dans un navigateur.
+- [Sources des données](donnees/README.md) — liens officiels vers les produits CaSSIS, CTX et la grille d’Oxia Planum, avec une brève description de chacun.
+
+## Organisation du dépôt
+
+| Dossier | Contenu |
 | --- | --- |
-| `report/` | Final project report |
-| `figures/` | Figures accompanying the analysis |
-| `notebooks/` | Exported analysis notebook |
+| `rapport/` | Rapport final |
+| `figures/` | Figures du projet |
+| `analyses/` | Carnet d’analyse exporté en HTML |
+| `donnees/` | Sources et description des données géospatiales |
 
-The repository currently contains the report, figures, and notebook export. It does not include a separate raw-data folder or the original editable notebook file.
-
-## Context
-
-Oxia Planum is of interest to the ExoMars Rosalind Franklin mission. Studying the site offers a way to connect planetary geology with practical questions about rover exploration, including the conditions a mission must account for on the Martian surface.
-
-The report and notebook contain the project's specific sources, methods, and discussion. This README is only a short guide to the files; please refer to the report for the full analysis.
+Les données raster d’origine sont volumineuses. Le dossier `donnees/` renvoie vers leur dépôt officiel de l’ESA plutôt que de dupliquer ces fichiers dans ce dépôt.
