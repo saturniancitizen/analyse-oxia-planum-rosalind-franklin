@@ -19,6 +19,7 @@ Ce projet m’a permis de travailler avec des données géospatiales réelles et
 - [Rapport final](rapport/rapport.pdf) — le document principal et le meilleur point de départ.
 - [Figures](figures/Figures_Oxia_Planum.pdf) — les illustrations réunies dans un seul fichier.
 - [Carnet d’analyse (export HTML)](analyses/01_exploration_des_donnees.html) — le code et le déroulement de l’analyse, consultables dans un navigateur.
+- [Carnet d’analyse sur nbviewer](https://nbviewer.org/github/saturniancitizen/analyse-oxia-planum-rosalind-franklin/blob/main/analyses/01_exploration_des_donnees.ipynb) — vue recommandée si GitHub ne rend pas directement le notebook.
 - [Sources des données](donnees/README.md) — liens officiels vers les produits CaSSIS, CTX et la grille d’Oxia Planum, avec une brève description de chacun.
 
 ## Organisation du dépôt
