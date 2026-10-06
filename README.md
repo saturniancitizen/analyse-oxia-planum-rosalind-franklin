@@ -16,9 +16,9 @@ Ce projet m’a permis de travailler avec des données géospatiales réelles et
 
 ## Pour découvrir le projet
 
-- [Rapport final](rapport/oxia_planum_rapport_finale.pdf) — le document principal et le meilleur point de départ.
+- [Rapport final](rapport/rapport.pdf) — le document principal et le meilleur point de départ.
 - [Figures](figures/Figures_Oxia_Planum.pdf) — les illustrations réunies dans un seul fichier.
-- [Carnet d’analyse (export HTML)](analyses/oxia%20planum%20full%20code%20NB.html) — le code et le déroulement de l’analyse, consultables dans un navigateur.
+- [Carnet d’analyse (export HTML)](analyses/01_exploration_des_donnees.html) — le code et le déroulement de l’analyse, consultables dans un navigateur.
 - [Sources des données](donnees/README.md) — liens officiels vers les produits CaSSIS, CTX et la grille d’Oxia Planum, avec une brève description de chacun.
 
 ## Organisation du dépôt
@@ -27,7 +27,7 @@ Ce projet m’a permis de travailler avec des données géospatiales réelles et
 | --- | --- |
 | `rapport/` | Rapport final |
 | `figures/` | Figures du projet |
-| `analyses/` | Carnet d’analyse exporté en HTML |
+| `analyses/` | Carnet d’analyse (Jupyter + export HTML) |
 | `donnees/` | Sources et description des données géospatiales |
 
 Les données raster d’origine sont volumineuses. Le dossier `donnees/` renvoie vers leur dépôt officiel de l’ESA plutôt que de dupliquer ces fichiers dans ce dépôt.
